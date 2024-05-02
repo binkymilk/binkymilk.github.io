@@ -24,7 +24,7 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 24px;
+  padding: 1em 2em;
 }
 
 section {
@@ -118,6 +118,14 @@ div.links {
   flex-direction: row;
   align-items: center;
   gap: 36px;
+}
+
+.links a.social-media-links {
+  transition: 0.3s;
+}
+
+.links a.social-media-links:hover {
+  transform: translateY(-10px);
 }
 
 div.hole {
